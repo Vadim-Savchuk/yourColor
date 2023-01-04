@@ -1,0 +1,56 @@
+@media screen and (max-width: 1200px) {
+    .list li{
+        padding: 35px;
+    }
+
+    .app-wrapper{
+        margin-top: 80px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .app{
+        padding: 70px 50px;
+    }
+    
+    .list li{
+        padding: 35px;
+    }
+
+    .app-wrapper{
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .list li {
+        padding: 20px;
+    }
+
+    .input{
+        padding: 10px;
+    }
+
+    .button{
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .app {
+        padding: 30px 20px;
+    }
+
+    .list li {
+        padding: 7px;
+    }
+
+    .app-wrapper{
+        padding: 0px;
+        margin-top: 30px;
+    }
+
+    .button{
+        margin: initial;
+    }
+}
